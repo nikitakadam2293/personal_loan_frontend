@@ -3,17 +3,23 @@ import React from 'react';
 import RateCalculator from './components/RateCalculator';
 import EMICalculator from './components/EMICalculator';
 import ScenarioComparison from './components/ScenarioComparison';
-
+import GetApplicantById from './components/GetApplicantById';
+// import GetAllApplicants from './components/GetAllApplicants';
 import './App.css';
+import HomePage from './components/Home';
 
 
 function App(){
   return(
     <div>
-      <h1>Personal Loan Portal</h1>
-      <RateCalculator/>
+      {/* <h1>Personal Loan Portal</h1> */}
+      <HomePage/>
+      {/* <RateCalculator/>
       <EMICalculator/>
       <ScenarioComparison/>
+      <GetApplicantById/> */}
+      {/* <GetAllApplicants/> */}
+
     </div>
   );
 }
